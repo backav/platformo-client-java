@@ -8,6 +8,13 @@
     <description>A tool to collect webserver response time.</description>
     <url>http://xiangyang.li/project/platformo-client-java/</url>
 
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
     <developers>
         <developer>
             <name>Shawn Li</name>
@@ -22,8 +29,8 @@
     </scm>
 
     <groupId>li.xiangyang.platformo</groupId>
-    <artifactId>client</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>PlatformoClient</artifactId>
+    <version>1.0</version>
 
     <dependencies>
         <dependency>
