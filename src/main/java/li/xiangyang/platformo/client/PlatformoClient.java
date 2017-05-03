@@ -37,6 +37,7 @@ public class PlatformoClient {
                 new ThreadFactory() {
                     public Thread newThread(Runnable r) {
                         Thread t = Executors.defaultThreadFactory().newThread(r);
+                        t.setName("PlatformoClient-"+t.getName());
                         t.setDaemon(true);
                         return t;
                     }
